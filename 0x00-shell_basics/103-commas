@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdepth 1 -print0 | tr '\0 ',' | sed 's/,$/\n/'
