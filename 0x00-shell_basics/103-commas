@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p -a -C |paste -s -d ',' |sort
+echo "$(ls -a -p | sort)" |paste -s -d ','
