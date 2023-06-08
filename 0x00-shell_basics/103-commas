@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1pa1d --color=never | sed -e 's/[[:space:]]/, /g' | sed -e 's/\(.*\)\/$/\1\//' | sort -d -f -t $'\0' -k1.1n -k1.2,1 -k1.1,1n | sed -e '$a\' 1l
+ls -p -a -C |paste -s -d ',' |sort
