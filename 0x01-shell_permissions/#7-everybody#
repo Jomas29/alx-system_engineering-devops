@@ -1,2 +1,0 @@
-#!/bin/bash
-chmo 751 hello | chmo
