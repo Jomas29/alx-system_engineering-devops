@@ -1,2 +1,2 @@
 #!/bin/bash
-echo chgrp "school" "hello"
+chgrp $group="school" $file="hello"
