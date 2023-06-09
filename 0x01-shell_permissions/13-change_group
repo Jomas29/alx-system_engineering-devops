@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ -f "hello" ]: then chgrp $group="school" $file="hello"
+chgrp school hello
