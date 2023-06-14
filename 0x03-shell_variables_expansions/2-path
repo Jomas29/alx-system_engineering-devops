@@ -1,2 +1,2 @@
 #!/bin/bash
-echo export PATH="$PATH:/action" >> ~/.bashcr '\n' source ~/.bashcr
+echo 'export PATH="$PATH:/action"' >> ~/.bashcr && source ~/.bashcr
