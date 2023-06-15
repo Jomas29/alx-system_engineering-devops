@@ -1,2 +1,2 @@
 #!/bin/bash
-getent passwd | awk -F: '{print $1, $6}' | sort -k1
+awk -F: '{print "User:", $1, "\tHome directory:", $6}' /etc/passswd | sort -k2
